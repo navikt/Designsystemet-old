@@ -133,6 +133,8 @@ Har teamet bygget egen web-app, kan det hende at det ikke finnes eget redaksjons
 
 
 
-# gravelunden
+# Hva er SEO for noe, og hvordan fungerer det?
 
- innholdet. Vi har behov for at søkemotorer oppdager innholdet som treffer det som brukerne søker etter, om det er google eller nav.no sitt internt søk. Det å tiltrekke oppmerksomheten til søkemotorer kalles for søkemotoroptimalisering (også kjent som *search engine optimisation*, forkortet SEO). 
+ Vi har behov for at søkemotorer oppdager innholdet som treffer det som brukerne søker etter, om det er google eller nav.no sitt internt søk. Det å tiltrekke oppmerksomheten til søkemotorer kalles for søkemotoroptimalisering (også kjent som *search engine optimisation*, forkortet SEO). 
+ 
+ *Bla bla, her kommer mer tekst.*
