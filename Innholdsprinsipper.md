@@ -84,14 +84,14 @@ Hierarchien bygges ved å bruke `h1` som viktigste element, `h2` som nest viktig
 
 Vær streng med hvordan du organiserer hierarkiet. Ikke strukturér innholdet slik at innen en `h1` seksjon plutselig dukker opp en `h3`, uten at du først har truffet en `h2` på vei dit. Det finnes stort sett ingen kvister uten grener.
 
-Ikke skap dype hierarkier. Det holder nesten alltid med `h1` til `h3`, men du kan av og kjenne behov for `h4`. Er siden så kompleks at du er helt ned på `h6`, kan det være lurt å helst omstrukturere innholdet til en side med flere undersider. Dermed slipper brukeren å måtte forholde seg til mye leting opp og ned gjennom nivåene på samme side.
+Ikke skap dype hierarkier. Det holder nesten alltid med `h1` til `h3`, men du kan til tider kjenne behov for `h4`. Er siden så kompleks at du er helt ned på `h6`, kan det være lurt å helst omstrukturere innholdet til en side med flere undersider. Dermed slipper brukeren å måtte forholde seg til mye leting opp og ned gjennom nivåene på samme side.
 
 
 ### Utseendet skal speile semantikken
 
 Som sidens viktigse og mest informasjonsbærende element, ville det vært veldig sjelden at `h1` *ikke* utgjør den største teksten. `h2` pleier å være noe mindre, `h3` tar enda mindre plass, og så videre. Størrelsen fungerer som ledetråd når brukeren prøver å fatte hva som er viktigst på siden.
 
-Ikke bruk hierarki som erstatning for akkurat den typografien du vil ha på enkelte overskrifter. Sånn ødelegger du for navigasjon gjennom hierarkiet. Tenk for eksempel på skjermleserbrukere, som navigerer ved `h`-overskrifter og mellomoverskrifter, og som må vurdere om de vil "drill down" eller gå videre. Ikke bland semantikken med utseendet.
+Ikke bruk hierarki som erstatning for akkurat den typografien du vil ha på enkelte overskrifter. Sånn ødelegger du for navigasjon gjennom hierarkiet. Tenk for eksempel på skjermleserbrukere, som navigerer ved `h`-overskrifter og mellomoverskrifter, og som må vurdere om de vil "drill down" eller gå videre. Bruk kun `h`-elementer av semantiske grunner.
 
 
 ### Videre lesning
