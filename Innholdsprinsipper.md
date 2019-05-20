@@ -4,7 +4,7 @@ Denne siden inneholder:
 
 * Hvorfor strukturert innhold?
 * Tre ting du skal vite om innhold på nett
-* h1- og tittel-elementer
+* h1- og title-elementer
 * Strukturér siden hierarkisk
 * Tenk på framtiden og gjenbruk ved å skrive modulært
 * Ofte-stilte spørsmål *(blir nok erstattet av ekte seksjoner)*
