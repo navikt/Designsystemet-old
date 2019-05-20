@@ -13,8 +13,6 @@ Denne siden inneholder:
 
 ## Hvorfor strukturert innhold?
 
-Hvordan skrive enkelt, konsekvent og tilgjengelig dekkes av (Slik skriver vi)[https://design.nav.no/resources/language]. 
-
 Denne siden handler om innholdsstrukturering som legger opp til at:
 
 * brukeropplevelsen blir mer konsekvent og universelt utformet
@@ -22,6 +20,9 @@ Denne siden handler om innholdsstrukturering som legger opp til at:
 * brukeren skjønner fort om de er på riktig sted
 * innholdet blir lettere å vedlikeholde og gjenbruke
 * vi rigger for framtidens innhold. 
+
+Hvordan skrive enkelt, konsekvent og tilgjengelig dekkes av (Slik skriver vi)[https://design.nav.no/resources/language]. 
+
  
 ### Tre ting du skal vite om innhold på nett
 
