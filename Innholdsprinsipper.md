@@ -32,7 +32,7 @@ Hvordan skrive enkelt, konsekvent og tilgjengelig dekkes av (Slik skriver vi)[ht
 
 3. Når vi skriver innhold og metadata i HTML, er dette stort sett uavhengig av *utseendet på nett*, nemlig farge, størrelse, posisjon, og så videre. Utseendet løser vi på en annet sted ved å lage en 'frontend', der vi bestemmer, for eksempel, hvor stor alle tittelene eller brødtekstene blir. Men det er innholdet som er kjernen vår :) 
 
-## h1- og tittel-elementer
+## h1- og title-elementer
 
 Når vi oppretter en ny side, finnes det to måter å navngi den i HTML:
 
@@ -48,13 +48,13 @@ Når vi oppretter en ny side, finnes det to måter å navngi den i HTML:
 
 `title` trekkes inn av sosiale medier når de skal forhåndsvise innholdet som lenkes til. 
 
-I sum blir `title`-elementet brukt andre steder, som reklame eller veiskilt for sidens innhold. Derfor er det viktig med en title som faktisk speiler innholdet.
+I sum blir `title`-elementet brukt andre steder, som reklame eller veiskilt for sidens innhold. Derfor er det viktig med en `title` som faktisk speiler innholdet.
 
 ### Om h1-elementet
 
-`h1` brukes til orientering når først du havner på en bestemt nettside. `h1` skal være den aller første tingen du leser (om det er visuelt eller med skjermleser). Sånn sett må den gi en godt og helst kort oversikt av hva siden handler om.
+`h1` brukes til orientering når først du havner på en bestemt nettside. `h1` skal være den aller første tingen du leser (om det er visuelt eller med skjermleser). Sånn sett må den gi en godt og helst kort oversikt over hva siden handler om.
 
-`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Her er det ofte til hjelp å tenke på hvordan hele nettstedet ville blitt opplevd av noen som bruker skjermleser, hadde de kun navigert ved `h1`-elementer. Lignende titler legger opp til forvirring hos alle uansett.
+`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Her er det ofte til hjelp å tenke på hvordan hele nettstedet ville blitt opplevd av noen som bruker skjermleser, hadde de kun navigert ved `h1`-elementer. Vagt lignende titler legger jo opp til forvirring hos alle uansett.
 
 **Det skal kun finnes én `h1` pr. side.** Alt annet innhold på den siden må være på `h2`-nivå eller lavere.
 
@@ -62,9 +62,11 @@ I sum blir `title`-elementet brukt andre steder, som reklame eller veiskilt for 
 
 Du skal bruke begge deler, men ikke til akkurat samme mål.
 
-**Bruk `title` for å gi brukeren kontekst i det hele, og det fjerne** Se for deg at noen oppdager nav.no sitt innhold via Google eller sosiale medier. Hen skal vite, før hen velger lenken, om den kan være relevant eller ei. Eller tenk på den som blader gjennom alle de 30 åpne fanene i nettleseren for å finne tilbake til noe. Kanskje står det faner som viser flere forskjelle sider fra nav.no. Her kan det være til hjelp å vite at alle de fanene inneholder innhold på nav.no, kontra andre nettsteder. Derfor for eksempel `Sykepenger – nav.no` og `Foreldrepenger – nav.no`. 
+#### Bruk `title` for å gi brukeren kontekst i det hele, og det fjerne.
+Se for deg at noen oppdager nav.no sitt innhold via Google eller sosiale medier. Hen skal vite, før hen velger lenken, om den kan være relevant eller ei. Eller tenk på den som blader gjennom alle de 30 åpne fanene i nettleseren for å finne tilbake til noe. Kanskje står det faner som viser flere forskjelle sider fra nav.no. Her kan det være til hjelp å vite at alle de fanene inneholder innhold på nav.no, kontra andre nettsteder. Derfor for eksempel `Sykepenger – nav.no` og `Foreldrepenger – nav.no`. 
 
-**Bruk `h1` til orientering når brukeren navigerer aktivt** Tenk deg hvor kjedelig det ville vært dersom alle titlene du leste på tvers av nav.no enten hadde begynt eller sluttet med "nav.no". Dette ville lagt opp til unødvendig støy. Derimot er `h1` til orientering når du navigerer fra, for eksempel, "Hva er din situasjon?" til "Sykdom i familien". Ut fra `h1` på ankomst-siden skal du vite hvor du er kommet hen til.
+#### Bruk `h1` til orientering når brukeren navigerer aktivt.
+Tenk deg hvor kjedelig det ville vært dersom alle titlene du leste på tvers av nav.no enten hadde begynt eller sluttet med "nav.no". Dette ville lagt opp til unødvendig støy. Derimot er `h1` til orientering når du navigerer fra, for eksempel, "Hva er din situasjon?" til "Sykdom i familien". Ut fra `h1` på ankomst-siden skal du vite hvor du er kommet hen til.
 
 Er du i tvil, kan du bruke akkurat samme tekst til både `h1` og `title`, men tenk gjerne over hvordan de henholdsvis ville blitt opplevd i de tilfellene nevnt ovenfor.
 
