@@ -5,22 +5,13 @@ Denne siden inneholder:
 * Hvorfor strukturert innhold?
 * Tre ting du skal vite om innhold på nett
 * h1- og tittel-elementer
-* Strukturer siden hierarkisk
+* Strukturér siden hierarkisk
 * Tenk på framtiden og gjenbruk ved å skrive modulært
 * Folk snakker om hodeløst, men hva er det egentlig?
 * Ofte-stilte spørsmål *blir nok erstattet av ekte seksjoner*
 
 
 ## Hvorfor strukturert innhold?
-
-Når NAV skriver, vil vi at:
-
-1. Innholdet bruker ord og begrep som treffer hos brukerne
-2. Terminologi brukes konsekvent.
-3. Innholdet er universelt utformet.
-4. Innholdet kan oppdages ved søk, om det er ved google eller internt søk på nav.no.
-5. Brukerne får innhold som faktisk treffer på det de søker etter.
-6. Vedlikehold av innhold er minst mulig mas, for eksempel ved at vi gjenbruker samme tekst fra én innholdskilde framfor duplisert innholdet som står og må redigeres flere steder.
 
 Hvordan skrive enkelt, konsekvent og tilgjengelig dekkes av (Slik skriver vi)[https://design.nav.no/resources/language]. 
 
