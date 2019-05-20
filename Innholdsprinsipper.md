@@ -66,7 +66,7 @@ Du skal bruke begge deler, men ikke til akkurat samme mål.
 Se for deg at noen oppdager nav.no sitt innhold via Google eller sosiale medier. Hen skal vite, før hen velger lenken, om den kan være relevant eller ei. Eller tenk på den som blader gjennom alle de 30 åpne fanene i nettleseren for å finne tilbake til noe. Kanskje står det faner som viser flere forskjelle sider fra nav.no. Her kan det være til hjelp å vite at alle de fanene inneholder innhold på nav.no, kontra andre nettsteder. Derfor for eksempel `Sykepenger – nav.no` og `Foreldrepenger – nav.no`. 
 
 #### Bruk `h1` til orientering når brukeren navigerer aktivt.
-Tenk deg hvor kjedelig det ville vært dersom alle titlene du leste på tvers av nav.no enten hadde begynt eller sluttet med "nav.no". Dette ville lagt opp til unødvendig støy. Derimot er `h1` til orientering når du navigerer fra, for eksempel, "Hva er din situasjon?" til "Sykdom i familien". Ut fra `h1` på ankomst-siden skal du vite hvor du er kommet hen til.
+Tenk deg hvor kjedelig det ville vært dersom alle titlene du leste på tvers av nav.no enten hadde begynt eller sluttet med "nav.no". Dette ville lagt opp til mye unødvendig støy. Derfor bruker vi `h1` til orientering når en navigerer fra, for eksempel, "Hva er din situasjon?" til "Sykdom i familien". Ut fra `h1` på ankomst-siden skal brukeren vite hvor hen er kommet fram til.
 
 Er du i tvil, kan du bruke akkurat samme tekst til både `h1` og `title`, men tenk gjerne over hvordan de henholdsvis ville blitt opplevd i de tilfellene nevnt ovenfor.
 
