@@ -92,7 +92,7 @@ Ikke skap dype hierarkier. Det holder nesten alltid med `h1` til `h3`, men du ka
 
 Som sidens viktigse og mest informasjonsbærende element, ville det vært veldig sjelden at `h1` *ikke* utgjør den største teksten. `h2` pleier å være noe mindre, `h3` tar enda mindre plass, og så videre. Størrelsen fungerer som ledetråd når brukeren prøver å fatte hva som er viktigst på siden.
 
-Ikke bruk hierarchi som erstatning for typografien du vil ha på enkelte overskrifter. Sånn ødelegger du for navigasjon gjennom hierarkiet. Tenk for eksempel på skjermleserbrukere, som kommer bort i `h`-overskrifter og mellomoverskrifter, og som vurderer om de vil "drill down" eller gå videre. Ikke bland semantikken med utseendet.
+Ikke bruk hierarki som erstatning for akkurat den typografien du vil ha på enkelte overskrifter. Sånn ødelegger du for navigasjon gjennom hierarkiet. Tenk for eksempel på skjermleserbrukere, som navigerer ved `h`-overskrifter og mellomoverskrifter, og som må vurdere om de vil "drill down" eller gå videre. Ikke bland semantikken med utseendet.
 
 
 ### Videre lesning
@@ -110,7 +110,7 @@ Et annet arvegods fra de gode gamle dager er gjentakelse av samme innhold flere 
 ### I dag kan vi bruke mellomoverskrifter til spisset søk
 Selv om `h1` er viktigst for søkemotorer, er det i disse dager også lurt å skrive gode mellomoverskrifter, nemlig `h2` og nedover. Dermed legger vi opp til en brukeropplevelse der brukeren taster inn "Hvor lenge foreldrepenger" i søkeboksen, og får et treff som heter "Hvor lenge kan du få foreldrepenger?". Lenken leder til akkurat den seksjonen brukeren lurer på, framfor å måtte gå til toppen av "Om foreldrepenger" og lese seg gjennom alt. **Obs!** Dette fine bildet gjelder kun dersom siden er riktig strukturert, og dersom søkemotoren rigges tilsvarende.
 
-### Ved godt-strukturert innhold kan vi få "rediger ett sted, få lest på flere"
+### Ved godt-strukturert innhold kan vi få til "rediger ett sted, få lest på flere"
 Når vi bygger dagens systemer og skriver dagens innhold, skal vi sørge for at tekster gjenbrukes framfor dupliseres. Er det behov for at noe skal stå flere steder, er det åpenbart smart å skrive teksten én gang og så gjenbruke, hvis det lar seg gjøre. Slik kutter vi dobbeltarbeid hos redaksjon, og unngår dupliserte tekster som begynner likt men som med tid utvikler seg forskjellig. I samme slange kutter vi forvirring og leting hos brukeren, som så senker antall henvendelser til kundesenteret.  
 
 ### I framtiden kommer enda smartere løsninger
@@ -130,9 +130,14 @@ Du kan ha lest om "hodeløst CMS", der CMS står for Content Management System. 
 Har teamet bygget egen web-app, kan det hende at det ikke finnes eget redaksjonsgrensesnitt. 
 
 
-
 ### Hva er SEO for noe, og hvordan fungerer det?
 
  Vi har behov for at søkemotorer oppdager innholdet som treffer det som brukerne søker etter, om det er google eller nav.no sitt internt søk. Det å tiltrekke oppmerksomheten til søkemotorer kalles for søkemotoroptimalisering (også kjent som *search engine optimisation*, forkortet SEO). 
  
  *Bla bla, her kommer mer tekst.*
+
+### Hvordan skal vi håndtere innhold som ligger i en blanding av CMS'er, skreddersydde web-apper, med mer? 
+You tell me. Men her kommer litt tankemat:
+1. Jo bedre oversikt vi har over alle disse systemene, desto lettere det blir å forstå hvordan vi kan bedre dagens situasjon. Jobb for at alle får en bedre oversikt, og blir ikke satt fast i egen gullgruve.
+2. Det er litt styr å få systemer til å snakke sammen, men man skal ikke se bort fra de store gevinstene som kan oppstå som følge av arbeidet — for eksempel færre henvendelser til kundesenteret. Vi burde (do the hard work to make it simple)[https://www.gov.uk/guidance/government-design-principles#do-the-hard-work-to-make-it-simple]
+3. Det om at dagens systemer ikke alltid snakke sammen er en slags teknisk gjeld (engelsk: (technical debt)[https://en.wikipedia.org/wiki/Technical_debt]). Dette arbeidet kan ikke forskyves i all evighet. Hvorfor ikke begynn på det nå? 
