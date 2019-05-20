@@ -8,6 +8,7 @@ Denne siden inneholder:
 * Strukturer siden hierarkisk
 * Tenk på framtiden og gjenbruk ved å skrive modulært
 * Folk snakker om hodeløst, men hva er det egentlig?
+* Ofte-stilte spørsmål *blir nok erstattet av ekte seksjoner*
 
 
 ## Hvorfor strukturert innhold?
@@ -121,9 +122,12 @@ Når vi bygger dagens systemer og skriver dagens innhold, skal vi sørge for at 
 ### I framtiden kommer enda smartere løsninger
 Se for deg at enkelte seksjoner av nettsiden kunne gjenbrukes av en nav.no chatbot. Brukeren taster "hvor lenge varer foreldrepenger?" og chatbot-en kan svare med hele den "Hvor lenge kan du få foreldrepenger?"`h2`-seksjon, eller eventuelt lenker videre til flere mulige `h3` elementer som hører hjemme under den opprinnelige`h2`, som for eksempel "Far og mor", "Bare far har rett", og så videre. Igjen får brukeren hjelp til å finne akkurat det de lurer på. Chatbots er sikkert kun én blant flere måter å utnytte stukturert innhold på.
 
+## Ofte-stilte spørsmål
+
+Jeg misliker egentlig ofte-stilte spørsmål, og vil helst at de omfattes av egne seksjoner. Work in progress. 
 
 
-## Folk snakker om hodeløst, men hva er det egentlig?
+### Folk snakker om hodeløst, men hva er det egentlig?
 
 "Hodeløst innhold" betyr at selve innholdet og hvordan innholdet brukes og settes sammen er helt (eller delvis) frakoblet. Tanken er at det er bedre å ha små biter med godt strukturert innhold, som så kan settes sammen på nye måter ved behov, framfor å ha rigide sider (typisk sett maler) som ikke kan tas fra hverandre når det kun er en del som er relevant.
 
@@ -133,7 +137,7 @@ Har teamet bygget egen web-app, kan det hende at det ikke finnes eget redaksjons
 
 
 
-# Hva er SEO for noe, og hvordan fungerer det?
+### Hva er SEO for noe, og hvordan fungerer det?
 
  Vi har behov for at søkemotorer oppdager innholdet som treffer det som brukerne søker etter, om det er google eller nav.no sitt internt søk. Det å tiltrekke oppmerksomheten til søkemotorer kalles for søkemotoroptimalisering (også kjent som *search engine optimisation*, forkortet SEO). 
  
