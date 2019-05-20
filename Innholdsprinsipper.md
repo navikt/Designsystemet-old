@@ -8,7 +8,7 @@ Denne siden inneholder:
 * Strukturér siden hierarkisk
 * Tenk på framtiden og gjenbruk ved å skrive modulært
 * Folk snakker om hodeløst, men hva er det egentlig?
-* Ofte-stilte spørsmål *blir nok erstattet av ekte seksjoner*
+* Ofte-stilte spørsmål *(blir nok erstattet av ekte seksjoner)*
 
 
 ## Hvorfor strukturert innhold?
@@ -54,7 +54,7 @@ I sum blir `title`-elementet brukt andre steder, som reklame eller veiskilt for 
 
 `h1` brukes til orientering når først du havner på en bestemt nettside. `h1` skal være den aller første tingen du leser (om det er visuelt eller med skjermleser). Sånn sett må den gi en godt og helst kort oversikt over hva siden handler om.
 
-`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Her er det ofte til hjelp å tenke på hvordan hele nettstedet ville blitt opplevd av noen som bruker skjermleser, hadde de kun navigert ved `h1`-elementer. Vagt lignende titler legger jo opp til forvirring hos alle uansett.
+`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Her er det ofte til hjelp å tenke på hvordan hele nettstedet ville blitt opplevd av noen som bruker skjermleser, hadde hen kun navigert ved `h1`-elementer. Vagt lignende titler legger jo opp til forvirring hos alle uansett.
 
 **Det skal kun finnes én `h1` pr. side.** Alt annet innhold på den siden må være på `h2`-nivå eller lavere.
 
@@ -62,10 +62,10 @@ I sum blir `title`-elementet brukt andre steder, som reklame eller veiskilt for 
 
 Du skal bruke begge deler, men ikke til akkurat samme mål.
 
-#### Bruk `title` for å gi brukeren kontekst i det hele, og det fjerne.
+#### Bruk `title` for å gi brukeren kontekst i det hele, og det fjerne
 Se for deg at noen oppdager nav.no sitt innhold via Google eller sosiale medier. Hen skal vite, før hen velger lenken, om den kan være relevant eller ei. Eller tenk på den som blader gjennom alle de 30 åpne fanene i nettleseren for å finne tilbake til noe. Kanskje står det faner som viser flere forskjelle sider fra nav.no. Her kan det være til hjelp å vite at alle de fanene inneholder innhold på nav.no, kontra andre nettsteder. Derfor for eksempel `Sykepenger – nav.no` og `Foreldrepenger – nav.no`. 
 
-#### Bruk `h1` til orientering når brukeren navigerer aktivt.
+#### Bruk `h1` til orientering når brukeren navigerer aktivt
 Tenk deg hvor kjedelig det ville vært dersom alle titlene du leste på tvers av nav.no enten hadde begynt eller sluttet med "nav.no". Dette ville lagt opp til mye unødvendig støy. Derfor bruker vi `h1` til orientering når en navigerer fra, for eksempel, "Hva er din situasjon?" til "Sykdom i familien". Ut fra `h1` på ankomst-siden skal brukeren vite hvor hen er kommet fram til.
 
 Er du i tvil, kan du bruke akkurat samme tekst til både `h1` og `title`, men tenk gjerne over hvordan de henholdsvis ville blitt opplevd i de tilfellene nevnt ovenfor.
@@ -125,9 +125,9 @@ Jeg misliker egentlig ofte-stilte spørsmål, og vil helst at de omfattes av egn
 
 "Hodeløst innhold" betyr at selve innholdet og hvordan innholdet brukes og settes sammen er helt (eller delvis) frakoblet. Tanken er at det er bedre å ha små biter med godt strukturert innhold, som så kan settes sammen på nye måter ved behov, framfor å ha rigide sider (typisk sett maler) som ikke kan tas fra hverandre når det kun er en del som er relevant.
 
-Du kan ha lest om "hodeløst CMS", der CMS står for Content Management System. Et CMS innebærer ofte at det finnes et redaksjonsgrensesnitt der det går an å opprette nye innholdsbiter (eller eventuelt hele sider) og redigere.
+Du kan ha lest om "hodeløst CMS", der CMS står for Content Management System. Et CMS innebærer ofte at det finnes et redaksjonsgrensesnitt der det går an å opprette og redigere innholdsbiter (eventuelt hele sider, eventuelt hele sider som selv er en sammensetning av diverse innholdsbiter).
 
-Har teamet bygget egen web-app, kan det hende at det ikke finnes eget redaksjonsgrensesnitt. 
+Har teamet bygget egen web-app, kan det hende at det ikke finnes eget redaksjonsgrensesnitt. I så fall er nok enten innholdet hentet fra en annen kilde, eller hard-kodet (det vil si at du må inn i selve HTML for å skrive endringer).
 
 
 ### Hva er SEO for noe, og hvordan fungerer det?
