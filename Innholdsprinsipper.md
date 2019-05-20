@@ -7,7 +7,6 @@ Denne siden inneholder:
 * h1- og tittel-elementer
 * Strukturér siden hierarkisk
 * Tenk på framtiden og gjenbruk ved å skrive modulært
-* Folk snakker om hodeløst, men hva er det egentlig?
 * Ofte-stilte spørsmål *(blir nok erstattet av ekte seksjoner)*
 
 
@@ -54,7 +53,7 @@ I sum blir `title`-elementet brukt andre steder, som reklame eller veiskilt for 
 
 `h1` brukes til orientering når først du havner på en bestemt nettside. `h1` skal være den aller første tingen du leser (om det er visuelt eller med skjermleser). Sånn sett må den gi en godt og helst kort oversikt over hva siden handler om.
 
-`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Her er det ofte til hjelp å tenke på hvordan hele nettstedet ville blitt opplevd av noen som bruker skjermleser, hadde hen kun navigert ved `h1`-elementer. Vagt lignende titler legger jo opp til forvirring hos alle uansett.
+`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av noen som bruker skjermleser, hadde hen kun navigert ved `h1`-elementer. Alle tjenes av å ha unike, tydelige `h1`-elementer.
 
 **Det skal kun finnes én `h1` pr. side.** Alt annet innhold på den siden må være på `h2`-nivå eller lavere.
 
@@ -116,6 +115,7 @@ Når vi bygger dagens systemer og skriver dagens innhold, skal vi sørge for at 
 ### I framtiden kommer enda smartere løsninger
 Se for deg at enkelte seksjoner av nettsiden kunne gjenbrukes av en nav.no chatbot. Brukeren taster "hvor lenge varer foreldrepenger?" og chatbot-en kan svare med hele den "Hvor lenge kan du få foreldrepenger?"`h2`-seksjon, eller eventuelt lenker videre til flere mulige `h3` elementer som hører hjemme under den opprinnelige`h2`, som for eksempel "Far og mor", "Bare far har rett", og så videre. Igjen får brukeren hjelp til å finne akkurat det de lurer på. Chatbots er sikkert kun én blant flere måter å utnytte stukturert innhold på.
 
+
 ## Ofte-stilte spørsmål
 
 Jeg misliker egentlig ofte-stilte spørsmål, og vil helst at de omfattes av egne seksjoner. Work in progress. 
@@ -127,7 +127,7 @@ Jeg misliker egentlig ofte-stilte spørsmål, og vil helst at de omfattes av egn
 
 Du kan ha lest om "hodeløst CMS", der CMS står for Content Management System. Et CMS innebærer ofte at det finnes et redaksjonsgrensesnitt der det går an å opprette og redigere innholdsbiter (eventuelt hele sider, eventuelt hele sider som selv er en sammensetning av diverse innholdsbiter).
 
-Har teamet bygget egen web-app, kan det hende at det ikke finnes eget redaksjonsgrensesnitt. I så fall er nok enten innholdet hentet fra en annen kilde, eller hard-kodet (det vil si at du må inn i selve HTML for å skrive endringer).
+Har teamet bygget egen web-app, kan det hende at det ikke finnes eget redaksjonsgrensesnitt. I så fall er nok enten innholdet hentet fra en annen kilde, eller hard-kodet (det vil si at du må inn i selve HTML for å redigere teksten).
 
 
 ### Hva er SEO for noe, og hvordan fungerer det?
