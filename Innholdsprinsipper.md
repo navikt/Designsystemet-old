@@ -113,7 +113,7 @@ Selv om `h1` er viktigst for søkemotorer, er det i disse dager også lurt å sk
 Når vi bygger dagens systemer og skriver dagens innhold, skal vi sørge for at tekster gjenbrukes framfor dupliseres. Er det behov for at noe skal stå flere steder, er det åpenbart smart å skrive teksten én gang og så gjenbruke, hvis det lar seg gjøre. Slik kutter vi dobbeltarbeid hos redaksjon, og unngår dupliserte tekster som begynner likt men som med tid utvikler seg forskjellig. I samme slange kutter vi forvirring og leting hos brukeren, som så senker antall henvendelser til kundesenteret.  
 
 ### I framtiden kommer enda smartere løsninger
-Se for deg at enkelte seksjoner av nettsiden kunne gjenbrukes av en nav.no chatbot. Brukeren taster "hvor lenge varer foreldrepenger?" og chatbot-en kan svare med hele den "Hvor lenge kan du få foreldrepenger?"`h2`-seksjon, eller eventuelt lenker videre til flere mulige `h3` elementer som hører hjemme under den opprinnelige`h2`, som for eksempel "Far og mor", "Bare far har rett", og så videre. Igjen får brukeren hjelp til å finne akkurat det de lurer på. Chatbots er sikkert kun én blant flere måter å utnytte stukturert innhold på.
+Se for deg at enkelte seksjoner av nettsiden kunne gjenbrukes av en nav.no chatbot. Brukeren taster "hvor lenge varer foreldrepenger?" og chatbot-en kan svare med hele den "Hvor lenge kan du få foreldrepenger?"`h2`-seksjon, eller eventuelt lenker videre til flere mulige `h3` elementer som passer inn under samme seksjon, som for eksempel "Far og mor", "Bare far har rett", og så videre. Igjen får brukeren hjelp til å finne akkurat det de lurer på. Chatbots er sikkert kun én blant flere måter å utnytte stukturert innhold på.
 
 
 ## Ofte-stilte spørsmål
