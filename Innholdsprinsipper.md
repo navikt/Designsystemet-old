@@ -51,9 +51,9 @@ I sum blir `title`-elementet brukt andre steder, som reklame eller veiskilt for 
 
 ### Om h1-elementet
 
-`h1` brukes til orientering når først du havner på en bestemt nettside. `h1` skal være den aller første tingen du leser (om det er visuelt eller med skjermleser). Sånn sett må den gi en godt og helst kort oversikt over hva siden handler om.
+`h1` er den viktigste "heading" (derfor 'h') som finnes på en nettside, og brukes til orientering når først du havner der. `h1` skal være den aller første tingen du leser (om det er visuelt eller med skjermleser). Sånn sett må `h1` gi en godt og helst kort oversikt over hva siden faktisk handler om.
 
-`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av noen som bruker skjermleser, hadde hen kun navigert ved `h1`-elementer. Alle tjenes av å ha unike, tydelige `h1`-elementer.
+`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Dette er særskilt viktig ved en flyt som består av flere relaterte sider, for eksempel ved en digital søknad. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av noen som bruker skjermleser, og som dermed navigerer med utgangspunkt i `h1`-elementer. Unike, tydelige `h1`-elementer tjener alle brukere. 
 
 **Det skal kun finnes én `h1` pr. side.** Alt annet innhold på den siden må være på `h2`-nivå eller lavere.
 
