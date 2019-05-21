@@ -20,12 +20,12 @@ Denne siden handler om innholdsstrukturering som legger opp til at:
 * innholdet blir lettere å vedlikeholde og gjenbruke
 * vi rigger for framtidens innhold. 
 
-Hvordan skrive enkelt, konsekvent og tilgjengelig dekkes av (Slik skriver vi)[https://design.nav.no/resources/language]. 
+Hvordan skrive enkelt, konsekvent og tilgjengelig dekkes av [Slik skriver vi](https://design.nav.no/resources/language). 
 
  
 ### Tre ting du skal vite om innhold på nett
 
-1. Alle nettsider skrives og leses i et språk som heter HMTL, som er en forkortelse for *hypertext markup language*. Du trenger ikke å kunne HTML selv, men du burde ha en viss forståelse for at det finnes, for det har mye å si for hvordan innhold struktureres.  
+1. Alle nettsider skrives og leses i et språk som heter HTML, som er en forkortelse for *hypertext markup language*. Du trenger ikke å kunne HTML selv, men du burde ha en viss forståelse for at det finnes, for det har mye å si for hvordan innhold struktureres.  
 
 2. HTML omfatter både selve ordene du leser på nett, og såkalt 'metadata', som er innhold *som beskriver* selve innholdet (derfor 'meta'). Metadata brukes blant annet til å markere hvilke ord utgjør overskriften, hvilke er mellomoverskrifter, og hvilke er brødtekst. Metadata skrives ved å pakke ordene som brukeren leser inn i 'tags', som brukeren ikke ser. For eksempel, når vi skal navngi en nettside, skriver vi `<title>Bla bla</title>`. Brukeren leser kun 'Bla bla' på nett.
 
@@ -71,9 +71,9 @@ Er du i tvil, kan du bruke akkurat samme tekst til både `h1` og `title`, men te
 
 ### Videre lesning
 
-(SEO and the title tag – moz.com) [https://moz.com/learn/seo/title-tag]
-(Heading elements – Mozilla.org)[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements]
-(Page title and h1: best practices – Web developer network)[https://wdn.unl.edu/page-title-h1-best-practices]
+[SEO and the title tag – moz.com](https://moz.com/learn/seo/title-tag)
+[Heading elements – Mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
+[Page title and h1: best practices – Web developer network](https://wdn.unl.edu/page-title-h1-best-practices)
 
 
 ## Strukturér siden hierarkisk
@@ -96,7 +96,7 @@ Ikke bruk hierarki som erstatning for akkurat den typografien du vil ha på enke
 
 ### Videre lesning
 
-(Page structure: headings – W3.org)[https://www.w3.org/WAI/tutorials/page-structure/headings/]
+[Page structure: headings – W3.org](https://www.w3.org/WAI/tutorials/page-structure/headings/)
 
 
 ## Tenk på framtiden og gjenbruk ved å skrive modulært
@@ -139,5 +139,5 @@ Har teamet bygget egen web-app, kan det hende at det ikke finnes eget redaksjons
 ### Hvordan skal vi håndtere innhold som ligger i en blanding av CMS'er, skreddersydde web-apper, med mer? 
 You tell me. Men her kommer litt tankemat:
 1. Jo bedre oversikt vi har over alle disse systemene, desto lettere det blir å forstå hvordan vi kan bedre dagens situasjon. Jobb for at alle får en bedre oversikt, og blir ikke satt fast i egen gullgruve.
-2. Det er litt styr å få systemer til å snakke sammen, men man skal ikke se bort fra de store gevinstene som kan oppstå som følge av arbeidet — for eksempel færre henvendelser til kundesenteret. Vi burde (do the hard work to make it simple)[https://www.gov.uk/guidance/government-design-principles#do-the-hard-work-to-make-it-simple]
-3. Det om at dagens systemer ikke alltid snakke sammen er en slags teknisk gjeld (engelsk: (technical debt)[https://en.wikipedia.org/wiki/Technical_debt]). Dette arbeidet kan ikke forskyves i all evighet. Hvorfor ikke begynn på det nå? 
+2. Det er litt styr å få systemer til å snakke sammen, men man skal ikke se bort fra de store gevinstene som kan oppstå som følge av arbeidet — for eksempel færre henvendelser til kundesenteret. Vi burde [do the hard work to make it simple](https://www.gov.uk/guidance/government-design-principles#do-the-hard-work-to-make-it-simple)
+3. Det om at dagens systemer ikke alltid snakke sammen er en slags teknisk gjeld (engelsk: [technical debt](https://en.wikipedia.org/wiki/Technical_debt)) . Dette arbeidet kan ikke forskyves i all evighet. Hvorfor ikke begynne på det nå? 
