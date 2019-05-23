@@ -12,57 +12,59 @@ Denne siden inneholder:
 
 ## Hvorfor strukturert innhold?
 
-Denne siden handler om innholdsstrukturering som legger opp til at:
+Når vi skriver strukturert innhold, gjør vi det fordi:
 
-* brukeropplevelsen blir mer konsekvent og universelt utformet
 * det ønskete innholdet blir lettere å finne (SEO, lenketekst, søketreff, med mer)
 * brukeren skjønner fort om de er på riktig sted
+* brukeropplevelsen blir mer konsekvent, samt universelt utformet
 * innholdet blir lettere å vedlikeholde og gjenbruke
-* vi rigger for framtidens innhold. 
+* dermed rigger vi for framtiden. 
 
 Hvordan skrive enkelt, konsekvent og tilgjengelig dekkes av [Slik skriver vi](https://design.nav.no/resources/language). 
 
  
 ### Tre ting du skal vite om innhold på nett
 
-1. Alle nettsider skrives og leses i et språk som heter HTML, som er en forkortelse for *hypertext markup language*. Du trenger ikke å kunne HTML selv, men du burde ha en viss forståelse for at det finnes, for det har mye å si for hvordan innhold struktureres.  
+1. Alle nettsider skrives og leses i et språk som heter HTML, som er en forkortelse for *hypertext markup language*. Du trenger ikke å kunne HTML selv. Men du burde ha en viss forståelse for at den finnes, for det har mye å si for hvordan innhold struktureres, oppleves, og brukes.
 
-2. HTML omfatter både selve ordene du leser på nett, og såkalt 'metadata', som er innhold *som beskriver* selve innholdet (derfor 'meta'). Metadata brukes blant annet til å markere hvilke ord utgjør overskriften, hvilke er mellomoverskrifter, og hvilke er brødtekst. Metadata skrives ved å pakke ordene som brukeren leser inn i 'tags', som brukeren ikke ser. For eksempel, når vi skal navngi en nettside, skriver vi `<title>Bla bla</title>`. Brukeren leser kun 'Bla bla' på nett.
+2. HTML omfatter både selve ordene du leser på nett, og såkalt 'metadata', som er *innhold som beskriver selve innholdet* (derfor 'meta'). Metadata brukes til, blant annet, markering av hvilke ord utgjør overskriften, hvilke er mellomoverskrifter, og hvilke er brødtekst. Metadata skrives ved å pakke ord og media inn i 'elementer' som brukeren ikke ser. For eksempel, når vi skal navngi en nettside, skriver vi `<title>Bla bla</title>`. Brukeren leser kun 'Bla bla' på nett.
 
-3. Når vi skriver innhold og metadata i HTML, er dette stort sett uavhengig av *utseendet på nett*, nemlig farge, størrelse, posisjon, og så videre. Utseendet løser vi på en annet sted ved å lage en 'frontend', der vi bestemmer, for eksempel, hvor stor alle tittelene eller brødtekstene blir. Men det er innholdet som er kjernen vår :) 
+3. Når vi skriver innhold og metadata i HTML, er dette stort sett uavhengig av *utseendet på nett*, nemlig farge, størrelse, posisjon, og så videre. Utseendet løser vi på en annet sted ved å lage en 'frontend', der vi bestemmer, for eksempel, hvor stor alle tittelene eller brødtekstene blir. Men innholdet er kjernen :) 
 
 ## h1- og title-elementer
 
 Når vi oppretter en ny side, finnes det to måter å navngi den i HTML:
 
-1. `<title>The title attribute</title>`. 
+1. `<title>The title element</title>`. 
 
-2. `<h1>The h1 attribute</h1>`
+2. `<h1>The h1 element</h1>`
 
 ### Om title-elementet
 
-`title` brukes til søkeoptimalisering (SEO), der google og andre vil hente ut det som sidens innhold handler om, ut fra det som skrives i `title`-elementet. Her er det viktig med en god match mellom title og faktisk innhold, for at brukeren ikke skal villedes. 
+`title` brukes til søkemotoroptimalisering (også kjent som SEO). Søketjenester som Google, samt internt søk på nav.no, henter ut det som sidens innhold handler om, ut fra det som skrives i `title`-elementet. Her er det viktig med en god match mellom title og faktisk innhold, for at brukeren ikke blir villedet. 
 
-`title` konsumeres også av nettleseren din (Chrome, Internet Explorer, og lignende). I nettleseren finner du den lille fanen i topp, der det står `Person - nav.no`. Denne beskrivelsen hentes fra `title`-attribute'n.
+`title`-elementet brukes også av sosiale medier når de skal forhåndsvise innholdet som lenkes til.
 
-`title` trekkes inn av sosiale medier når de skal forhåndsvise innholdet som lenkes til. 
+Sist blir `title`-elementet brukt av nettleseren din (Chrome, Internet Explorer, og lignende). Ved å åpne en nettside i nettleseren får du den lille fanen i topp, der det står `Person - nav.no`, eller hva det er. Denne beskrivelsen hentes fra `title`-attribute'n.
 
-I sum blir `title`-elementet brukt andre steder, som reklame eller veiskilt for sidens innhold. Derfor er det viktig med en `title` som faktisk speiler innholdet.
+I sum blir `title`-elementet brukt andre steder enn selve nettside, som en slags reklame eller veiskilt for sidens innhold. Derfor er det viktig med en `title` som faktisk speiler innholdet.
 
 ### Om h1-elementet
 
-`h1` er den viktigste "heading" (derfor 'h') som finnes på en nettside, og brukes til orientering når først du havner der. `h1` skal være den aller første tingen du leser (om det er visuelt eller med skjermleser). Sånn sett må `h1` gi en godt og helst kort oversikt over hva siden faktisk handler om.
+`h1` er den viktigste "heading"-en (derfor 'h' og '1') på en nettside. Den brukes til orientering når først du havner på siden. Dette gjør at `h1` må gi oversikt over akkurat det som siden handler om. Den skal helst være temmlig kort.
 
-`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Dette er særskilt viktig ved en flyt som består av flere relaterte sider, for eksempel ved en digital søknad. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av noen som bruker skjermleser, og som dermed navigerer med utgangspunkt i `h1`-elementer. Unike, tydelige `h1`-elementer tjener alle brukere. 
+`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Dette er særskilt viktig når brukeren skal gjennom flere sider i løpet av en søknad eller annen flyt. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av noen som bruker skjermleser, og som dermed navigerer med utgangspunkt i `h1`-elementer. Når vi skriver unike, tydelige `h1`-elementer, tjener vi alle brukere. 
 
-**Det skal kun finnes én `h1` pr. side.** Alt annet innhold på den siden må være på `h2`-nivå eller lavere.
+`h1` bør være den aller første delen av sidens innhold du treffer, enten det er visuelt eller med skjermleser, og om du bruker tastaturet til navigering eller ei.
+
+**Det skal kun finnes én `h1` pr. side.** Alt annet innhold på den siden må være på `h2`-nivå eller lavere. Dette legger opp til bedre søk og navigasjon.
 
 ### Hvorfor finnes både title og h1?
 
-Du skal bruke begge deler, men ikke til akkurat samme mål.
+Du skal bruke begge deler, men ikke nødvendigvis til akkurat samme mål.
 
 #### Bruk `title` for å gi brukeren kontekst i det hele, og det fjerne
-Se for deg at noen oppdager nav.no sitt innhold via Google eller sosiale medier. Hen skal vite, før hen velger lenken, om den kan være relevant eller ei. Eller tenk på den som blader gjennom alle de 30 åpne fanene i nettleseren for å finne tilbake til noe. Kanskje står det faner som viser flere forskjelle sider fra nav.no. Her kan det være til hjelp å vite at alle de fanene inneholder innhold på nav.no, kontra andre nettsteder. Derfor for eksempel `Sykepenger – nav.no` og `Foreldrepenger – nav.no`. 
+Se for deg at noen oppdager nav.no sitt innhold via Google eller sosiale medier. Hen skal vite, før hen velger lenken, om den kan være relevant eller ei. Hvilket nettsted siden ligger på er en ofte en viktig del av vurderingen. `title`-elementet er også en vanlig del av nettleserbruk. Særlig ved mange åpne faner kan det være nyttig å vite at noen av sidene står på nav.no, kontra andre nettsteder. Derfor for eksempel `Sykepenger – nav.no` og `Foreldrepenger – nav.no`.
 
 #### Bruk `h1` til orientering når brukeren navigerer aktivt
 Tenk deg hvor kjedelig det ville vært dersom alle titlene du leste på tvers av nav.no enten hadde begynt eller sluttet med "nav.no". Dette ville lagt opp til mye unødvendig støy. Derfor bruker vi `h1` til orientering når en navigerer fra, for eksempel, "Hva er din situasjon?" til "Sykdom i familien". Ut fra `h1` på ankomst-siden skal brukeren vite hvor hen er kommet fram til.
