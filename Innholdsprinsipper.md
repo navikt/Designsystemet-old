@@ -41,7 +41,7 @@ Når vi oppretter en ny side, finnes det to måter å navngi den i HTML:
 
 ### Om title-elementet
 
-`title` brukes til søkemotoroptimalisering (også kjent som SEO). Søketjenester som Google, samt internt søk på nav.no, henter ut det som sidens innhold handler om, ut fra det som skrives i `title`-elementet. Her er det viktig med en god match mellom title og faktisk innhold, for at brukeren ikke blir villedet. 
+`title` brukes til søkemotoroptimalisering, også kjent som SEO. Søketjenester som Google, samt internt søk på nav.no, henter ut det som sidens innhold handler om, ut fra det som skrives i `title`-elementet. Her er det viktig med en god match mellom title og faktisk innhold, for at brukeren ikke blir villedet. 
 
 `title`-elementet brukes også av sosiale medier når de skal forhåndsvise innholdet som lenkes til.
 
@@ -53,7 +53,7 @@ I sum blir `title`-elementet brukt andre steder enn selve nettside, som en slags
 
 `h1` er den viktigste "heading"-en (derfor 'h' og '1') på en nettside. Den brukes til orientering når først du havner på siden. Dette gjør at `h1` må gi oversikt over akkurat det som siden handler om. Den skal helst være temmlig kort.
 
-`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Dette er særskilt viktig når brukeren skal gjennom flere sider i løpet av en søknad eller annen flyt. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av noen som bruker skjermleser, og som dermed navigerer med utgangspunkt i `h1`-elementer. Når vi skriver unike, tydelige `h1`-elementer, tjener vi alle brukere. 
+`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Dette er særskilt viktig når brukeren skal gjennom flere sider i løpet av en søknad eller annen flyt. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av en som bruker skjermleser, og som dermed navigerer med utgangspunkt i `h1`-elementer. Men når vi skriver unike, tydelige `h1`-elementer, tjener egentlig vi alle brukere. 
 
 `h1` bør være den aller første delen av sidens innhold du treffer, enten det er visuelt eller med skjermleser, og om du bruker tastaturet til navigering eller ei.
 
@@ -64,12 +64,17 @@ I sum blir `title`-elementet brukt andre steder enn selve nettside, som en slags
 Du skal bruke begge deler, men ikke nødvendigvis til akkurat samme mål.
 
 #### Bruk `title` for å gi brukeren kontekst i det hele, og det fjerne
-Se for deg at noen oppdager nav.no sitt innhold via Google eller sosiale medier. Hen skal vite, før hen velger lenken, om den kan være relevant eller ei. Hvilket nettsted siden ligger på er en ofte en viktig del av vurderingen. `title`-elementet er også en vanlig del av nettleserbruk. Særlig ved mange åpne faner kan det være nyttig å vite at noen av sidene står på nav.no, kontra andre nettsteder. Derfor for eksempel `Sykepenger – nav.no` og `Foreldrepenger – nav.no`.
+Det er ofte nyttig å ha med "domenet", det vil si nav.no, i `title`-elementet. Den som finner NAVs innhold via Google eller sosiale medier skal vite, før hen velger lenken, om den kan være relevant eller ei. Hvilket nettsted siden ligger på er en ofte en viktig del av vurderingen. Derfor er det bra med domenenavnet i `title`-elementet, som for eksempel `Sykepenger – www.nav.no` og `Foreldrepenger – www.nav.no`. (Jeg tipper at www-delen kommer til å forsvinne på sikt)
+
+Litt i samme gate kan også domenenavnet være nyttig å ha med seg når en blader gjennom flere åpne faner i nettleseren. Fanene trekker også på `title`-elementet.
 
 #### Bruk `h1` til orientering når brukeren navigerer aktivt
-Tenk deg hvor kjedelig det ville vært dersom alle titlene du leste på tvers av nav.no enten hadde begynt eller sluttet med "nav.no". Dette ville lagt opp til mye unødvendig støy. Derfor bruker vi `h1` til orientering når en navigerer fra, for eksempel, "Hva er din situasjon?" til "Sykdom i familien". Ut fra `h1` på ankomst-siden skal brukeren vite hvor hen er kommet fram til.
+`h1` skal nok ikke ha med domenet. `h1` er heller elementet som oppsummerer en side når du nylig har havnet der. Det ville vært kjedelig dersom hver eneste nav.no side hadde en overskrift som enten begynte eller sluttet med "nav.no". Tenk på `h1`-elementet som viktig orientering ved overganger. For eksempel kan en bruker gå fra "Hva er din situasjon?" til "Sykdom i familien" og vite hvor de er.
 
-Er du i tvil, kan du bruke akkurat samme tekst til både `h1` og `title`, men tenk gjerne over hvordan de henholdsvis ville blitt opplevd i de tilfellene nevnt ovenfor.
+#### Kan ikke du bruke samme tekst på `h1` og `title` da?
+Jo, men helst ikke som regel. Tenk over hvordan `h1` og `title` henholdsvis ville blitt opplevd i kontekstene nevnt ovenfor.
+
+Er det et unntak, er det kanskje at forsiden til hele nettstedet kan ha godt av å inkludere domenenavnet i `h1`-elementet. Dette gjør for eksempel gov.uk, til orientering for de som nettopp ankom. 
 
 ### Videre lesning
 
@@ -82,9 +87,9 @@ Er du i tvil, kan du bruke akkurat samme tekst til både `h1` og `title`, men te
 
 `h` betyr "heading". Den brukes i HTML til å bygge opp informasjonshierarkiet på nettsiden.
 
-Hierarchien bygges ved å bruke `h1` som viktigste element, `h2` som nest viktigst, osv. Bortsett fra `h1`, som skal være øverst, handler ikke strukturen om rekkefølgen nedover siden, men heller grenene til et tre. Du skal kun ha én `h1` (trestamme), men du får ha så mange `h2` (grener) du vil. Trenger du enda et nivå under hver enkelt `h2`, kan du bruke `h3` (kvister), osv. 
+Hierarchien bygges ved å bruke `h1` som viktigste element, `h2` som nest viktigst, osv. Bortsett fra `h1`, som skal være øverst, handler ikke strukturen om rekkefølgen nedover siden, men heller grenene til et tre. Du skal kun ha én `h1` (trestamme), men du får ha så mange `h2` (grener) du vil. Trenger du enda et nivå under enkelte `h2`, kan du bruke `h3` (kvister), osv. 
 
-Vær streng med hvordan du organiserer hierarkiet. Ikke strukturér innholdet slik at innen en `h1` seksjon plutselig dukker opp en `h3`, uten at du først har truffet en `h2` på vei dit. Det finnes stort sett ingen kvister uten grener.
+Vær streng med hvordan du organiserer hierarkiet. Ikke strukturér innholdet slik at plutselig innen en `h1` seksjon dukker opp en `h3`, uten at du først har truffet en `h2` på vei dit. Det finnes stort sett ingen kvister uten grener.
 
 Ikke skap dype hierarkier. Det holder nesten alltid med `h1` til `h3`, men du kan til tider kjenne behov for `h4`. Er siden så kompleks at du er helt ned på `h6`, kan det være lurt å helst omstrukturere innholdet til en side med flere undersider. Dermed slipper brukeren å måtte forholde seg til mye leting opp og ned gjennom nivåene på samme side.
 
