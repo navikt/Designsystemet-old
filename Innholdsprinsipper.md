@@ -151,6 +151,6 @@ You tell me. Men her kommer litt tankemat:
 
 3. Det om at dagens systemer ikke alltid snakke sammen er en slags teknisk gjeld (engelsk: [technical debt](https://en.wikipedia.org/wiki/Technical_debt)). Dette arbeidet kan ikke forskyves i all evighet. Hvorfor ikke begynne på det nå? 
 
-4. Alt følger med egen [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost). Om innholdsstrukturen bør forbedres på bekostning av andre ting, er blant det vanskeligste arbeidet som finnes. Prioritering er vanskelig arbeid. Men [break any of these rules* sooner than do anything barbaric](https://public.digital/2018/10/12/internet-era-ways-of-working/) 
+4. Alt følger med egen [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost). Om innholdsstrukturen bør forbedres på bekostning av andre ting, må vurderes. Prioritering er svært vanskelig arbeid. Men [break any of these rules* sooner than do anything barbaric](https://public.digital/2018/10/12/internet-era-ways-of-working/) 
 
 _* ikke regelen om kun én `h1` element, da_
