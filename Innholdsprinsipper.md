@@ -15,7 +15,7 @@ Denne siden inneholder:
 Når vi skriver strukturert innhold, gjør vi det fordi:
 
 * det ønskete innholdet blir lettere å finne (SEO, lenketekst, søketreff, med mer)
-* brukeren skjønner fort om de er på riktig sted
+* brukeren skjønner fort om de har kommet fram til riktig sted
 * brukeropplevelsen blir mer konsekvent, samt universelt utformet
 * innholdet blir lettere å vedlikeholde og gjenbruke
 * dermed rigger vi for framtiden. 
