@@ -4,6 +4,9 @@
 
 Det finnes flere forskjellige skjermlesere. Vi anbefaler at du tester med en eller flere skjermlesere, og at du i tillegg brukertester med noen som bruker skjermleser til daglig.
 
+VIKTIG!
+Før du tar i bruk noen av verktøyene nedenfor, må du huske at sikkerhet og personvern SKAL ivaretas. Sørg derfor for at du tester på testmiljøer og lignende som har fiktiv testdata. En av grunnene til dette er at noen av utvidelsene til nettlesere KAN sende data til servere utenfor NAV.
+
 ### Voice over
 https://youtu.be/5R-6WvAihms
 https://youtu.be/bCHpdjvxBws
