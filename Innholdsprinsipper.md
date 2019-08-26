@@ -67,10 +67,10 @@ Det er ofte nyttig å ha med "domenet", det vil si nav.no, i `title`-elementet. 
 Fanene i nettleseren bruker også `title`-elementet, og det er nyttig å ha med domenenavnet når en blader gjennom flere åpne faner i nettleseren.
 
 #### Bruk `h1` til orientering når brukeren navigerer aktivt
-`h1` skal nok ikke ha med domenet. `h1` er heller elementet som oppsummerer en side når du nylig har havnet der. Det ville vært kjedelig med overskrifter på hver eneste side som enten begynte eller sluttet med "nav.no". Tenk på `h1`-elementet som viktig orientering ved overganger. For eksempel kan en bruker gå fra "Hva er din situasjon?" til "Sykdom i familien" og vite hvor de er.
+`h1` skal nok ikke ha med domenet. `h1` er heller elementet som oppsummerer en side når du nylig har havnet der. Det ville vært kjedelig med overskrifter på hver eneste side som enten begynte eller sluttet med "nav.no". Tenk på `h1`-elementet som viktig orientering ved overganger. Da kan brukeren for eksempel gå fra "Hva er din situasjon?" til "Sykdom i familien", og vite hvor hen er.
 
 #### Kan ikke du bruke samme tekst på `h1` og `title` da?
-Jo, men helst ikke som regel. Tenk hvordan `h1`- og `title`-elementene ville blitt opplevd i kontekstene nevnt ovenfor.
+Jo, men helst ikke som regel. Tenk hvordan `h1`- og `title`-elementene ville blitt opplevd i sammenhengene nevnt ovenfor.
 
 Finnes det et unntak, er det nok at forsiden til hele nettstedet kan ha godt av å inkludere domenenavnet i `h1`-elementet. Dette gjør for eksempel gov.uk, til orientering for de som nettopp ankom. 
 
@@ -85,7 +85,7 @@ Finnes det et unntak, er det nok at forsiden til hele nettstedet kan ha godt av 
 
 `h` betyr "heading". Den brukes i HTML til å bygge opp informasjonshierarkiet på nettsiden.
 
-Hierarchien bygges ved å bruke `h1` som viktigste element, `h2` som nest viktigst, osv. Bortsett fra `h1`, som skal være øverst, handler ikke strukturen om rekkefølgen nedover siden, men heller grenene til et tre. Du skal kun ha én `h1` (trestamme), men du får ha så mange `h2` (grener) du vil. Trenger du enda et nivå under enkelte `h2`, kan du bruke `h3` (kvister), osv. 
+Hierarchien bygges ved å bruke `h1` som viktigste element, `h2` som nest viktigst, osv. Untatt `h1`, som skal være øverst, handler ikke ellers strukturen om rekkefølgen nedover siden, men heller grenene til et tre. Du skal kun ha én `h1` (trestamme), men du får ha så mange `h2` (grener) du vil. Trenger du enda et nivå under enkelte `h2`, kan du bruke `h3` (kvister), osv. 
 
 Vær streng med hvordan du organiserer hierarkiet. Ikke strukturér innholdet slik at plutselig innen en `h1` seksjon dukker opp en `h3`, uten at du først har truffet en `h2` på vei dit. Det finnes stort sett ingen kvister uten grener.
 
