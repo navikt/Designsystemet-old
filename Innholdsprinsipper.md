@@ -120,6 +120,9 @@ Når vi bygger dagens systemer og skriver dagens innhold, skal vi sørge for at 
 ### I framtiden kommer enda smartere løsninger
 Ved smart bruk av strukturert innhold på nett, muliggjør vi bedre løsninger. Brukeren taster "hvor lenge varer foreldrepenger?" og chatbot-en svarer med hele den "Hvor lenge kan du få foreldrepenger?"`h2`-seksjon. Kanskje får brukeren flere lenker videre til enkelte `h3`-elementer innen "Hvor lenge", som for eksempel "Far og mor", "Bare far har rett", og så videre. Igjen får brukeren hjelp til å finne akkurat det de lurer på. Bedre chatbot-løsninger er sikkert kun én blant flere måter å utnytte stukturert innhold på. Jo bedre strukturert innholdet vårt, desto bedre forberedt vi blir for en framtid vi ikke aner noe om ennå :) 
 
+## Husk konsekvens
+
+Det er smart å sørge for at samme fraser brukes konsekvent ved gjentatte elementer. Hvis vi for eksempel har mange produktsider der vi forklarer hva som skal til for at du har rett til Produkt X, er det smartest å skrive mellomoverskrifter som gjentas, for eksempel ved å si "Hvem har rett til Produkt X?" eller noe slikt.
 
 ## Ofte-stilte spørsmål
 
