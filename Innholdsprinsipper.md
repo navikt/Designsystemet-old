@@ -29,7 +29,7 @@ Hvordan skrive enkelt, konsekvent og tilgjengelig dekkes av [Slik skriver vi](ht
 
 2. HTML omfatter både selve ordene du leser på nett, og såkalt 'metadata', som er *innhold som beskriver selve innholdet* (derfor 'meta'). Metadata brukes blant annet til markering av hvilke ord utgjør overskriften, hvilke er mellomoverskrifter, og hvilke er brødtekst. Metadata skrives ved å pakke ord og media inn i 'elementer' som brukeren ikke ser. For eksempel, når vi skal navngi en nettside, skriver vi `<title>Bla bla</title>`. Brukeren leser kun 'Bla bla' på nett.
 
-3. Når vi skriver innhold og metadata i HTML, er dette stort sett uavhengig av *utseendet på nett*, nemlig farge, størrelse, posisjon, og så videre. Utseendet løser vi på en annet sted ved å lage en 'frontend', der vi bestemmer, for eksempel, hvor stor alle tittelene eller brødtekstene blir. Men innholdet er kjernen :) 
+3. Når vi skriver innhold og metadata i HTML, blir dette stort sett uavhengig av *utseendet på nett*, nemlig farge, størrelse, posisjon, og så videre. Utseendet løser vi på en annet sted ved å lage en 'frontend', der vi bestemmer, for eksempel, hvor stor alle tittelene eller brødtekstene blir. Men innholdet er kjernen :) 
 
 ## h1- og title-elementer
 
@@ -41,7 +41,7 @@ Når vi oppretter en ny side, finnes det to måter å navngi den i HTML:
 
 ### Om title-elementet
 
-`title` brukes til søkemotoroptimalisering, også kjent som SEO. Søketjenester som Google, samt internt søk på nav.no, henter ut det som sidens innhold handler om, ut fra det som skrives i `title`-elementet. Her er det viktig med en god match mellom title og faktisk innhold, for at brukeren ikke blir villedet. 
+`title` brukes til søkemotoroptimalisering, også kjent som SEO (Search Engine Optimisation). Søketjenester som Google, samt internt søk på nav.no, henter ut det som sidens innhold handler om, ut fra det som skrives i `title`-elementet. Her er det viktig med en god match mellom title og faktisk innhold, for at brukeren ikke blir villedet. 
 
 `title`-elementet brukes også av sosiale medier når de skal forhåndsvise innholdet som lenkes til.
 
@@ -51,11 +51,11 @@ I sum blir `title`-elementet brukt andre steder som en slags reklame eller veisk
 
 ### Om h1-elementet
 
-`h1` er den viktigste "heading"-en (derfor 'h' og '1') på en nettside. `h1` bør være den aller første delen av sidens innhold du treffer, enten det er visuelt eller med skjermleser, og om du bruker tastaturet til navigering eller ei. Dermed er `h1` til orientering når først du havner på siden. Dette gjør at `h1` må gi oversikt over akkurat det som siden handler om. `h1` skal helst være temmlig kort, men det er viktigst at den gir mening. 
+`h1` er den viktigste "heading"-en (derfor 'h' og '1') på en nettside. `h1` bør være den aller første delen av sidens innhold du treffer som bruker, enten det er visuelt eller med skjermleser, og om du bruker tastaturet til navigering eller ei. Dermed er `h1` til orientering når først du havner på siden. Dette gjør at `h1` må gi oversikt over akkurat det som siden handler om. `h1` skal helst være temmlig kort, men det er viktigst at den gir mening. 
 
-`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Dette er særskilt viktig når brukeren skal gjennom flere sider i løpet av en søknad eller annen flyt. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av en som bruker skjermleser, og som dermed navigerer med utgangspunkt i `h1`-elementer. Men egentlig, når vi skriver unike, tydelige `h1`-elementer, tjener vi alle brukere. 
+`h1` skal være unik, og la seg skille fra alle andre sider på tvers av hele nettstedet. Dette er særskilt viktig når brukeren skal gjennom flere sider i løpet av en søknad eller annen flyt. Her er det ofte til hjelp å tenke på hvordan nettstedet ville blitt opplevd av en som bruker skjermleser. Hen ville i første omgang navigert ut fra hva som står i `h1`-elementet. Ville det vært mulig å skjønne hva som er forskjellen mellom alle sidene, kun basert på `h1`? Henger flyten sammen? For egentlig tjener vi alle brukere når vi skriver unike, tydelige `h1`-elementer.
 
-**Det skal kun finnes én `h1` pr. side.** Alt annet innhold på den siden må være på `h2`-nivå eller lavere. Dette legger opp til bedre søk, bedre navigasjon, og bedre tilgjengelighet.
+**Det skal kun finnes én `h1` pr. side.** Alt annet innhold på den siden må være på `h2`-nivå eller lavere. Dette legger opp til bedre søk, bedre navigasjon, og mer universelt utformet design.
 
 ### Hvorfor finnes både title og h1?
 
@@ -64,13 +64,13 @@ Du skal bruke begge deler, men ikke nødvendigvis til akkurat samme mål.
 #### Bruk `title` for å gi brukeren kontekst i det hele, og det fjerne
 Det er ofte nyttig å ha med "domenet", det vil si nav.no, i `title`-elementet. Den som finner NAVs innhold via Google eller sosiale medier skal vite, før hen velger lenken, om den kan være relevant eller ei. Hvilket nettsted siden ligger på er en ofte en viktig del av vurderingen. Derfor er det bra med domenenavnet i `title`-elementet, som for eksempel `Sykepenger – www.nav.no` og `Foreldrepenger – www.nav.no`. (Det kan hende at "www"-delen kommer til å forsvinne på sikt, men vi får se.)
 
-Fanene i nettleseren bruker også `title`-elementet, og det er nyttig å ha med domenenavnet når en blader gjennom flere åpne faner i nettleseren.
+Fanene i nettleseren bruker også `title`-elementet, og det er nyttig å ha med domenenavnet når man for eksempel blader gjennom flere åpne faner i nettleseren.
 
 #### Bruk `h1` til orientering når brukeren navigerer aktivt
 `h1` skal nok ikke ha med domenet. `h1` er heller elementet som oppsummerer en side når du nylig har havnet der. Det ville vært kjedelig med overskrifter på hver eneste side som enten begynte eller sluttet med "nav.no". Tenk på `h1`-elementet som viktig orientering ved overganger. Da kan brukeren for eksempel gå fra "Hva er din situasjon?" til "Sykdom i familien", og vite hvor hen er.
 
 #### Kan ikke du bruke samme tekst på `h1` og `title` da?
-Jo, men helst ikke som regel. Tenk hvordan `h1`- og `title`-elementene ville blitt opplevd i sammenhengene nevnt ovenfor.
+Jo, men kanskje ikke som regel. Tenk hvordan `h1`- og `title`-elementene ville blitt opplevd i sammenhengene nevnt ovenfor.
 
 Finnes det et unntak, er det nok at forsiden til hele nettstedet kan ha godt av å inkludere domenenavnet i `h1`-elementet. Dette gjør for eksempel gov.uk, til orientering for de som nettopp ankom. 
 
@@ -81,14 +81,16 @@ Finnes det et unntak, er det nok at forsiden til hele nettstedet kan ha godt av 
 [Page title and h1: best practices – Web developer network](https://wdn.unl.edu/page-title-h1-best-practices)
 
 ### Meta Description
-I tillegg til HTML som leses av mennesker så brukes meta description tag av både mennesker og crawlers for søkemotorer som Google, Bing, Baidu og Yandex. Dette feltet kan brukes til å beskrive nettsiden kort, og gjenspeiles i søkeresultatet hos søkemotorer. Derfor er det viktig at hver side har en meta description dersom den skal indekseres i et søkeresultat, og at beskrivelsen er laget for at mennesker skal kunne forstå innholdet kort oppsummert. Ellers vil de ikke besøke siden. Merk at søkemotorer ignorer tilsvarende med open graph tag som `og:description`. Dette brukes kun av Facebook.
+I tillegg til HTML-elementene som leses av mennesker, bruker vi også `meta` tag'en. `Meta` brukes av både mennesker og "crawlers", automatiserte *(DINGSER)* som innleverer funn til søkemotorer som Google, Bing, Baidu og Yandex. `Meta`-feltet brukes til en kort beskrivelse av nettsiden, som så gjenspeiles i søkeresultatet hos søkemotorer. Derfor er det viktig at sider som skal indekseres i et søkeresultat har egne `meta`-beskrivelser. Det er også viktig at beskrivelsen oppsummerer kort og forståelig *for mennesker* hva slags innhold står på siden. Folk som ikke forstår en metabeskrivelse som vises i søkeresultatene ville nok ikke besøkt siden.
+
+Merk at søkemotorer ignorer tilsvarende med open graph tag som `og:description`. Dette brukes kun av Facebook.
 
 Eksempel
 ```
 <html>
     <head>
         <title>Foreldrepenger - www.nav.no</title>
-        <meta name="description" content="Foreldrepenger skal sikre deg inntekt når du ha foreldrepermisjon. Hvis du ikke hatt inntekt, kan du få en engangssum isteden." />
+        <meta name="description" content="Foreldrepenger skal sikre deg inntekt når du ha foreldrepermisjon. Hvis du ikke har hatt inntekt, kan du få en engangssum isteden." />
     </head>
 </html>
 ```
