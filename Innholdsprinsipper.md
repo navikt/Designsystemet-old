@@ -80,6 +80,20 @@ Finnes det et unntak, er det nok at forsiden til hele nettstedet kan ha godt av 
 [Heading elements – Mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
 [Page title and h1: best practices – Web developer network](https://wdn.unl.edu/page-title-h1-best-practices)
 
+### Meta Description
+I tillegg til HTML som leses av mennesker så brukes meta description tag av både mennesker og crawlers for søkemotorer som Google, Bing, Baidu og Yandex. Dette feltet kan brukes til å beskrive nettsiden kort, og gjenspeiles i søkeresultatet hos søkemotorer. Derfor er det viktig at hver side har en meta description dersom den skal indekseres i et søkeresultat, og at beskrivelsen er laget for at mennesker skal kunne forstå innholdet kort oppsummert. Ellers vil de ikke besøke siden. Merk at søkemotorer ignorer tilsvarende med open graph tag som `og:description`. Dette brukes kun av Facebook.
+
+Eksempel
+```
+<html>
+    <head>
+        <title>Foreldrepenger - www.nav.no</title>
+        <meta name="description" content="Foreldrepenger skal sikre deg inntekt når du ha foreldrepermisjon. Hvis du ikke hatt inntekt, kan du få en engangssum isteden." />
+    </head>
+</html>
+```
+
+[<meta>: The Document-level Metadata element | Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 
 ## Strukturér siden hierarkisk
 
