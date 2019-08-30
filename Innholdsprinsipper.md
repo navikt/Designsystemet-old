@@ -83,7 +83,7 @@ Finnes det et unntak, er det nok at forsiden til hele nettstedet kan ha godt av 
 ### Meta Description
 I tillegg til HTML-elementene som leses av mennesker, bruker vi også `meta` tag'en. `Meta` brukes av både mennesker og "crawlers", automatiserte *(DINGSER)* som innleverer funn til søkemotorer som Google, Bing, Baidu og Yandex. `Meta`-feltet brukes til en kort beskrivelse av nettsiden, som så gjenspeiles i søkeresultatet hos søkemotorer. Derfor er det viktig at sider som skal indekseres i et søkeresultat har egne `meta`-beskrivelser. Det er også viktig at beskrivelsen oppsummerer kort og forståelig *for mennesker* hva slags innhold står på siden. Folk som ikke forstår en metabeskrivelse som vises i søkeresultatene ville nok ikke besøkt siden.
 
-Merk at søkemotorer ignorer tilsvarende med open graph tag som `og:description`. Dette brukes kun av Facebook.
+Merk at søkemotorer tagger som `og:description`. Her står `og` for open graph, en metode funnet opp av Facebook. Open graph brukes mest av sosiale medier tjenester. Vi foreslår at NAV ikke bruker open graph tagging, men heller [schema.org](https://schema.org). Schema.org er en åpen standard som brukes til forbedring av strukturert data på nett.
 
 Eksempel
 ```
