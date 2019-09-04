@@ -31,7 +31,7 @@ NAV er en levende merkevare med sine bestemte egenskaper men under kontinuerlig 
   
 **Vi leverer verdi ofte**
 
-* Siden det er teamene som produserer innhold, er det alltid noe av verdi som blir en del av systemet. 
+* Siden leveranser kommer fra et reelt bruker behov, er det alltid stor verdi av som blir en del av systemet. 
 * Vi opererer etter to uker sprints, som prinsipp, skal vi alltid levere noen etter hver sprint
 * Support er første prioritet for designsysteme-teamet, og sakene som sendes inn skal gjennomføres fortløpende og så raskt som mulig 
 
