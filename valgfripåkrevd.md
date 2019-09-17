@@ -3,6 +3,7 @@
 ## Konvensjonen i NAV er:
 
 **Valgfrie felt blir markert, ikke obligatoriske**
+
 Dette gjøres ved å skrive «valgfritt» i selve labelen. For eksempel «Telefonnummer (valgfritt)»
 I begynnelsen av skjemaet sier vi at alle felt er obligatoriske.
 
@@ -23,6 +24,7 @@ W3C sier selv om suksesskriteriet 3.3.2:
 Vi anser det derfor som en forsvarlig tilnærming å bare markere valgfrie felt. For være tydelig bør vi i tillegg ha en standard-setning i begynnelsen av skjemaer som sier noe som "Vi spør bare om informasjon vi trenger for å behandle saken din. Derfor er som regel alle felt obligatoriske. Der vi spør om noe mer, gjør vi det for å kunne best behandle saken din, og vi har markert disse feltene med valgfri.
 
 ## Relatert lesestoff
-https://uxdesign.cc/form-field-required-vs-optional-9b4d7cdbf400
-https://uxmovement.com/forms/always-mark-optional-form-fields-not-required-ones/
-https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html
+
+- https://uxdesign.cc/form-field-required-vs-optional-9b4d7cdbf400
+- https://uxmovement.com/forms/always-mark-optional-form-fields-not-required-ones/
+- https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html
