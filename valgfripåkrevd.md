@@ -1,10 +1,8 @@
 # Valgfritt vs påkrevd
 
-## Konvensjonen i NAV er:
+**I NAV blir valgfrie felt blir markert, ikke de obligatoriske feltene**
 
-**Valgfrie felt blir markert, ikke obligatoriske**
-
-Dette gjøres ved å skrive «valgfritt» i selve labelen. For eksempel «Telefonnummer (valgfritt)»
+Måten vi markerer valgfrie felt på er ved å skrive «valgfritt» i selve labelen. For eksempel «Telefonnummer (valgfritt)»
 I begynnelsen av skjemaet sier vi at alle felt er obligatoriske.
 
 ## Begrunnelse
