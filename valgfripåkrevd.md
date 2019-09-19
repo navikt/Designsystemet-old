@@ -31,3 +31,4 @@ Forslag til standardsetning
 - https://uxdesign.cc/form-field-required-vs-optional-9b4d7cdbf400
 - https://uxmovement.com/forms/always-mark-optional-form-fields-not-required-ones/
 - https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html
+- https://uxmovement.com/forms/why-users-make-more-errors-with-instant-inline-validation/
