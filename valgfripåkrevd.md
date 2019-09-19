@@ -23,6 +23,7 @@ Ved å kun markere valgfrie felt fjerner vi støy og gjøre nødvendige handling
 Vi anbefaler å ha en standardsetning i begynnelsen av et skjema, der det passer.
 
 **Forslag til standardsetning**
+
 "Vi spør bare om informasjon vi trenger for å behandle saken din og de fleste feltene er obligatoriske. Enkelte felt er valgfrie, fordi noen ganger kan det være nyttig for oss å ha ekstra informasjon om deg når vi skal behandle saken din, men disse feltene vil være tydelig markert."
 
 ## Relevant lesestoff 
