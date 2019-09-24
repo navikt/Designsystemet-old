@@ -19,12 +19,7 @@ W3C sier selv om suksesskriteriet 3.3.2:
 
 > “Specific Benefits of Success Criterion 3.3.2: Clearly identifying required fields prevents a keyboard only user from submitting an incomplete form and having to navigate the redisplayed form to find the uncompleted field and provide the missing information.”
 
-Ved å kun markere valgfrie felt fjerner vi støy og gjøre nødvendige handlinger på siden tydligere. 
-Vi anbefaler å ha en standardsetning i begynnelsen av et skjema, der det passer.
-
-Forslag til standardsetning
-
-"Vi spør bare om informasjon vi trenger for å behandle saken din og de fleste feltene er obligatoriske. Enkelte felt er valgfrie, fordi noen ganger kan det være nyttig for oss å ha ekstra informasjon om deg når vi skal behandle saken din, men disse feltene vil være tydelig markert."
+Ved å kun markere valgfrie felt fjerner vi støy og gjør det tydeligere hvilke handlinger som er nødvendig på siden. 
 
 ## Relevant lesestoff 
 
