@@ -1,4 +1,3 @@
-*Under formatering*
 # A
 ### AAP
 Alternativ: Som hovedregel skriver vi arbeidsavklaringspenger fullt ut i teksten. Første gangen vi skriver ordet fullt ut, skriver vi også forkortelsen AAP i parentes. Det er for at de brukerne som er bedre kjent med forkortelsen kan kjenne igjen begrepet. Ved plassmangel kan vi bruke forkortelsen hvis begrepet er skrevet helt ut første gang.
