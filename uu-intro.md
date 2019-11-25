@@ -4,30 +4,10 @@
 
 Ved å tekste video slik at hørselshemmede kan få med seg viktig informasjon, gjør vi det også mulig for alle å se tekstet video i støyende omgivelser.
 
-![Eksempler på funksjonsnedsettelser](https://trello-attachments.s3.amazonaws.com/590c618893f382eb61038bae/5cd521f3fcef445130ce8c6e/c85a5d6ea8a90aad7dd28dd3471009fb/uu-illustrasjon2.jpg)
-
-/Hack til alt-tekst-alternativ
-- Fysisk funksjonsnedsettelse (152 000): 
-	- Permanent: Én arm
-	- Midlertidig: Brukket arm
-	- Situasjonsbetinget: Nybakt foreldre
-- Se (750 000): 
-	- Permanent: Blind
-	- Midlertidig: Eldre
-	- Situasjonsbetinget: Uoppmerksom sjåfør
-- Høre (500 000):
-	- Permanent: Døv
-	- Midlertidig: Øreinfeksjon
-	- Situasjonsbetinget: Bartender
-- Snakke (152 000):
-	- Permanent: Ikke-verbal
-	- Midlertidig: Laryngitt
-	- Situasjonsbetinget: Sterk aksent
-/
-
 ## Få en bra start i design- og utviklingsprosessen
 
-Vi tar hensyn til krav til universell utforming (kravene i WCAG 2.0, level AA) når vi utformer og tester elementene i Designsystemet (vi jobber med WCAG 2.1). Dette gjelder for eksempel fargekontrast: Bruk de fargekombinasjonene du finner her, og du møter kontrastkravene som er satt.  
+Vi tar hensyn til krav til universell utforming (kravene i WCAG 2.0, level AA) når vi utformer og tester elementene i Designsystemet (vi jobber med WCAG 2.1). Dette gjelder for eksempel fargekontrast: Bruk de fargekombinasjonene du finner her, og du møter kontrastkravene som er satt.
+
 Designsystemet bruker standard-HTML som gjør det mulig for de aller fleste å lese innholdet og betjene elementene, også de som bruker hjelpemidler. Der standard-HTML ikke er tilstrekkelig, har vi lagt til WAI-Aria. Elementene er testet med skjermleser.
 
 Til hvert element finner du referanser til relaterte krav og beste praksis.  
