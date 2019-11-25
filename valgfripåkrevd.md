@@ -1,19 +1,16 @@
 # Valgfritt vs påkrevd
 
-## Konvensjonen i NAV er:
+## I NAV sier vi at valgfrie felt blir markert, ikke de obligatoriske
 
-**Valgfrie felt blir markert, ikke obligatoriske**
+Da gjør vi slik. Måten vi markerer valgfrie felt på er ved å skrive «valgfritt» i selve labelen. For eksempel «Telefonnummer (valgfritt)».
 
-Dette gjøres ved å skrive «valgfritt» i selve labelen. For eksempel «Telefonnummer (valgfritt)»
-I begynnelsen av skjemaet sier vi at alle felt er obligatoriske.
+## Hvorfor gjør vi det på den måten?
 
-## Begrunnelse
+Obligatoriske felt blir ofte markert med en asterisk *. Utfordringen er at det er mange brukere som opplever denne typen markering som tydelig. Dermed øker faren for misforståelser.
 
-Obligatoriske felt blir ofte markert med en asterisk *. Det er likevel mange brukere som ikke opplever denne som tydelig, og dermed øker fare for misforståelser.
+I de fleste tilfeller skal vi ikke etterspørre mer informasjon fra brukeren enn vi faktisk trenger. Som betyr at de fleste, om ikke alle, felt vi bruker bør være obligatoriske.
 
-Vi skal ikke etterspørre mer informasjon fra brukeren enn vi virkelig trenger, og dermed burde de fleste (hvis ikke alle) felt vi bruker være obligatoriske.
-
-Det å markere mer eller mindre alle felt med *, kan medfører støy på siden, noe som kan gjøre det vanskeligere for for eksempel personer med konsentrasjonsvansker.
+Hvis vi skal markere mer eller mindre alle felt med en asterisk kan det medføre unødvendig støy på siden. Støy kan gjøre det vanskeligere å få med seg innholdet eller vite hva som er viktig, for eksempel for personer med konsentrasjonsvansker.
 
 W3C sier selv om suksesskriteriet 3.3.2:
 
@@ -21,9 +18,9 @@ W3C sier selv om suksesskriteriet 3.3.2:
 
 > “Specific Benefits of Success Criterion 3.3.2: Clearly identifying required fields prevents a keyboard only user from submitting an incomplete form and having to navigate the redisplayed form to find the uncompleted field and provide the missing information.”
 
-Vi anser det derfor som en forsvarlig tilnærming å bare markere valgfrie felt. For være tydelig bør vi i tillegg ha en standard-setning i begynnelsen av skjemaer som sier noe som "Vi spør bare om informasjon vi trenger for å behandle saken din. Derfor er som regel alle felt obligatoriske. Der vi spør om noe mer, gjør vi det for å kunne best behandle saken din, og vi har markert disse feltene med valgfri.
+Ved å kun markere valgfrie felt fjerner vi støy og gjør det tydeligere hvilke handlinger som er nødvendig på siden. 
 
-## Relatert lesestoff
+## Relevant lesestoff 
 
 - https://uxdesign.cc/form-field-required-vs-optional-9b4d7cdbf400
 - https://uxmovement.com/forms/always-mark-optional-form-fields-not-required-ones/
