@@ -7,7 +7,7 @@
     <p>
         Designsystem-teamet i NAV sitt offisielle område på Github
     </p>
-    <h4><a href="https://design.nav.no">Nettside</a> | <a href="https://github.com/navikt/Designsystemet/projects/1">Roadmap</a> | <a href="https://github.com/navikt/Designsystemet/issues">Tilbakemeldinger</a> | <a href="mailto:designsystemet@nav.no">Kontakt</a></h4>
+    <h4><a href="https://design.nav.no">Nettside</a> | <a href="https://github.com/navikt/Designsystemet/projects/1">Roadmap</a> | <a href="https://github.com/navikt/Designsystemet/issues">Tilbakemeldinger</a>
 </div>
 <br/><br/>
 <div align="center">
